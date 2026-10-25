@@ -9,6 +9,14 @@
             <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Vista/Registro.java</file>
             <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/sistemaventa/SistemaVenta.java</file>
             <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Reportes/Grafico.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Modelo/Conexion.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Modelo/ClienteDao.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Reportes/Excel.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Modelo/LoginDAO.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Modelo/ProductosDao.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Modelo/ProveedorDao.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Modelo/VentaDao.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/SistemaVenta/src/Modelo/login.java</file>
         </group>
     </open-files>
 </project-private>
