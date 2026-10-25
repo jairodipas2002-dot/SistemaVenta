@@ -9,7 +9,7 @@ public class LoginDAO {
     Connection con;
     PreparedStatement ps;
     ResultSet rs;
-    Conexion cn = new Conexion();
+    Conexion cn = Conexion.getInstancia();
 
    
 public login log(String correo, String pass) {

@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ProveedorDao {
 Connection con;
-Conexion cn = new Conexion();
+Conexion cn = Conexion.getInstancia();
 PreparedStatement ps;
 ResultSet rs;
 public boolean RegistrarProveedor(Proveedor pr){

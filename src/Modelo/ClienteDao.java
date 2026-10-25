@@ -10,8 +10,7 @@ import javax.swing.JOptionPane;
   
 public class ClienteDao {
 
-    Conexion cn = new Conexion();
-    Connection con;
+Conexion cn = Conexion.getInstancia();    Connection con;
     PreparedStatement ps;
     ResultSet rs;
     

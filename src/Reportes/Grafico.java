@@ -52,7 +52,7 @@ public class Grafico {
                    + "GROUP BY MONTH(fecha_convertida) "
                    + "ORDER BY mes";
 
-        Conexion cn = new Conexion();
+        Conexion cn = Conexion.getInstancia();
 
         try (Connection con = cn.getConnection();
              PreparedStatement ps = con.prepareStatement(sql)) {

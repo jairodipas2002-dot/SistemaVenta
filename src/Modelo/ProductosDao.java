@@ -13,7 +13,7 @@ import java.util.List;
 public class ProductosDao {
     
     Connection con;
-Conexion cn = new Conexion();
+Conexion cn = Conexion.getInstancia();
 PreparedStatement ps;
 ResultSet rs;
 

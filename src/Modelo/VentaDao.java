@@ -11,7 +11,7 @@ import java.util.List;
 public class VentaDao {
 
     Connection con;
-    Conexion cn = new Conexion();
+    Conexion cn = Conexion.getInstancia();
     PreparedStatement ps;
     ResultSet rs;
     int r;

@@ -102,10 +102,10 @@ is.close();
                 celdaEnzabezado.setCellValue(cabecera[i]);
             }
  
-            Conexion con = new Conexion();
+            Conexion cn = Conexion.getInstancia();
             PreparedStatement ps;
             ResultSet rs;
-            Connection conn = con.getConnection();
+            Connection conn = cn.getConnection();
  
             int numFilaDatos = 5;
  
