@@ -51,7 +51,7 @@ private String rol;
     public void setPass(String pass) {
         this.pass = pass;
     }
-
+//asignar rol
     public String getRol() {
         return rol;
     }

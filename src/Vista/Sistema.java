@@ -132,6 +132,7 @@ ListarConfig();
         this.setLocationRelativeTo(null);
         AutoCompleteDecorator.decorate(cbxProveedorPro);
         proDao.ConsularProveedor(cbxProveedorPro);
+        //asisgnacion de permisos de asistente 
         if (priv.getRol().equals("Asistente")) {
             btnProveedor.setEnabled(false);
             btnConfig.setEnabled(false);

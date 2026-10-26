@@ -42,7 +42,7 @@ public class Grafico {
         for (String mes : meses) {
             dataset.addValue(0.0, "Total vendido (S/.)", mes);
         }
-
+//Esta consulta convierte la fecha almacenada en texto a una fecha que MySQL pueda interpretar
         String sql = "SELECT MONTH(fecha_convertida) AS mes, "
                    + "SUM(total) AS total_mes "
                    + "FROM (SELECT STR_TO_DATE(fecha, '%d/%m/%Y') "

@@ -40,7 +40,7 @@ public login log(String correo, String pass) {
 }
 
 
-
+//se guarda el rol en la base de datos
 
 public boolean Registrar(login reg){
     String sql = "INSERT INTO usuarios (nombre, correo, pass, rol) VALUES (?,?,?,?)";

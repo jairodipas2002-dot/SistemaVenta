@@ -34,7 +34,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.util.IOUtils;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
- 
+ //codigo general de reporte de excel
 public class Excel {
     public static void reporte() {
  

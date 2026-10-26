@@ -68,7 +68,7 @@ if (!pass.matches(".*[^a-zA-Z0-9].*")) {
     String nom = txtNombre.getText().trim();
     String rol = cbxRol.getSelectedItem().toString();
 
-    // Verificar que todos los campos estén llenos
+    // Verificar que todos los campos estén todos llenos
     if (correo.isEmpty() || pass.isEmpty() || nom.isEmpty()) {
         JOptionPane.showMessageDialog(this,
                 "Complete todos los campos");
@@ -77,7 +77,7 @@ if (!pass.matches(".*[^a-zA-Z0-9].*")) {
 
     lg.setNombre(nom);
     lg.setCorreo(correo);
-    lg.setPass(pass); // CORREGIDO: antes tenías lg.getPass()
+    lg.setPass(pass); 
     lg.setRol(rol);
 
     // Registrar el usuario en la base de datos
